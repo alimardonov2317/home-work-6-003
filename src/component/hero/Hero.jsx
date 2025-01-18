@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Hero.scss"
-import play from "../../assets/Hover.svg"
+import play from "../../assets/hover.svg"
 import hero from "../../assets/hero.png"
 
 const Hero = () => {
