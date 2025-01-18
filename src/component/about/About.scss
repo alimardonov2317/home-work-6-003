@@ -1,0 +1,43 @@
+.about {
+    padding: 180px 0;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 135px;
+    }
+
+    &__content,
+    &__image {
+        width: 50%;
+    }
+
+    &__content {
+
+
+        span {
+            display: flex;
+            gap: 16px;
+            align-items: start;
+            max-width: 390px;
+            padding-bottom: 12px;
+            color: #424551;
+
+            img {
+                padding-top: 3px;
+            }
+        }
+    }
+
+    &__desc {
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 8px;
+    }
+
+    &__title {
+        font-size: 46px;
+        font-weight: 900;
+        padding-bottom: 40px;
+    }
+}

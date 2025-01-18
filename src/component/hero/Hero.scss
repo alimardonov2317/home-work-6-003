@@ -1,0 +1,83 @@
+.hero {
+    background: #feddd0;
+    padding: 100px 0 80px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__show {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-weight: 700;
+        }
+    }
+
+    &__title {
+        font-size: 64px;
+        font-weight: 900;
+        max-width: 469px;
+        margin-top: 24px;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-top: 60px;
+    }
+
+    &__btn-about {
+        padding: 14px 40px;
+        background: inherit;
+        color: #FF3F3A;
+        font-weight: 700;
+        border-radius: 4px;
+        border: 1px solid #FF3F3A;
+        transition: all .5s ease;
+
+        &:hover {
+            background: #FF3F3A;
+            color: #fff;
+        }
+
+    }
+
+    &__btn-explore {
+        padding: 14px 40px;
+        background: #FF3F3A;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 700;
+        transition: all .5s ease;
+
+        &:hover {
+            background: inherit;
+            outline: 1px solid #FF3F3A;
+            color: #FF3F3A;
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+
+        p {
+            font-size: 46px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            span {
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+    }
+}
